@@ -76,7 +76,7 @@ def audiorec_demo_app():
         st.audio(wav_bytes, format='audio/wav')
 
 
-if _name_ == '_main_':
+if __name__=='__main__':
 
     # call main function
     audiorec_demo_app()
