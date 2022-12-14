@@ -1,1 +1,5 @@
-speech_recognition 
+nltk==3.9
+opencv_python_headless
+mediapipe==0.8.9.1
+spacy>=3.0.0,<4.0.0
+en-core-web-sm==3.4.1
